@@ -11,11 +11,13 @@ Hệ thống mã nguồn được phân tách thành các module độc lập:
 ```text
 Datathon2026_OkChokChok/
 ├── notebooks/
-│   ├── 01_MCQ_Answers.ipynb                 # Truy xuất dữ liệu giải quyết 10 câu hỏi nghiệp vụ
+│   ├── 01_MCQ_Answers.ipynb                # Truy xuất dữ liệu giải quyết 10 câu hỏi nghiệp vụ
 │   ├── 02_EDA_and_Feature_Engineering.ipynb # Phân tích xu hướng (Seasonality) & Promotion ROI
 │   └── 03_Master_Pipeline_and_Forecasting.ipynb # Trích xuất đặc trưng, huấn luyện mô hình & xuất kết quả
-├── .gitignore                               # Cấu hình bỏ qua dữ liệu thô (*.csv)
-└── README.md                                # Project documentation
+├── submission/
+│   └── submission.csv                      # File kết quả dự đoán cuối cùng
+├── .gitignore                              # Cấu hình bỏ qua dữ liệu thô (*.csv)
+└── README.md                               # Tài liệu hướng dẫn dự án
 ```
 *Ghi chú: Báo cáo kỹ thuật chi tiết (Technical Report PDF) được đính kèm và nộp thông qua hệ thống của Ban tổ chức.*
 
